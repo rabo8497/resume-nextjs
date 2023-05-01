@@ -25,8 +25,8 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/rabo8497',
+      link: 'https://github.com/rabo8497',
       icon: faGithub,
     },
     {
