@@ -1,75 +1,34 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'AI',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
-    },
-    {
       title: 'Python',
-      level: 1,
     },
     {
-      title: 'C/C++',
-      level: 1,
+      title: 'Pytorch',
+    },
+    {
+      title: 'Tensorflow',
     },
   ],
 };
 
 const database: ISkill.Skill = {
-  category: 'Database',
+  category: 'Back-end',
   items: [
     {
-      title: 'MySQL',
-      level: 3,
+      title: 'nest.js',
     },
     {
-      title: 'Oracle',
-      level: 2,
+      title: 'node.js',
     },
     {
-      title: 'Redis',
-      level: 2,
+      title: 'C/C++',
     },
     {
-      title: 'MongoDB',
-      level: 1,
-    },
-  ],
-};
-
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
-  items: [
-    {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
-      level: 2,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
+      title: 'Django',
     },
   ],
 };
@@ -78,30 +37,21 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
-    },
-    {
-      title: 'Vim',
-    },
-    {
-      title: 'Security',
+      title: 'Anaconda',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
+      title: 'Unity/C#',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [backend, database, etc],
+  tooltip: '제가 사용해 본 적이 있거나, 이용할 수 있는 것에 대해 적었습니다.',
 };
 
 export default skill;

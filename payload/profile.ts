@@ -1,6 +1,6 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faDesktop } from '@fortawesome/free-solid-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -10,39 +10,30 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '전형찬',
+    small: '',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'rabo8497@gm.gist.ac.kr',
       link: '#',
       icon: faEnvelope,
     },
+
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
+      title: '전기전자컴퓨터공학부',
+      link: '#',
+      icon: faDesktop,
     },
+
     {
       title: 'https://github.com/rabo8497',
       link: 'https://github.com/rabo8497',
       icon: faGithub,
     },
-    {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
-    },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: '',
   },
 };
 
